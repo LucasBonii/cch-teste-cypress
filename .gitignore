@@ -1,0 +1,21 @@
+# Cypress
+# Ignore the default directory for screenshots and videos
+cypress/screenshots/
+cypress/videos/
+
+# Ignore the cypress/downloads folder (if not already covered by a general downloads rule)
+cypress/downloads/
+
+# Ignore the cypress/results folder (if using a results reporter)
+cypress/results/
+
+# Ignore the cypress/reports folder (for mochawesome or similar reporters)
+cypress/reports/
+
+# Ignore the generated cypress.env.json file if you are using it to store secrets locally
+# If this file needs to be shared among developers, do not ignore it.
+# cypress.env.json
+
+# Ignore the node modules folder, which contains Cypress dependencies
+# (this is standard practice for most Node.js projects)
+node_modules/
