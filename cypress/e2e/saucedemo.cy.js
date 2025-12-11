@@ -37,7 +37,7 @@ describe('Testes SauceDemo CCH', () => {
     cy.get('.cart_item').should('have.length', 1);
   });
 
-  it('05. Finalziar compra', () => {
+  it('05. Finalizar compra', () => {
     login();
     cy.get('.inventory_item').first().find('button').contains('Add to cart').click();
     cy.get('.shopping_cart_link').click();
